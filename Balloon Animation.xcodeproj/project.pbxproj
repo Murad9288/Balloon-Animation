@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		219FD8F92969652300D4283A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219FD8F82969652300D4283A /* AppDelegate.swift */; };
+		219FD8FB2969652300D4283A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219FD8FA2969652300D4283A /* SceneDelegate.swift */; };
+		219FD8FD2969652300D4283A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219FD8FC2969652300D4283A /* ViewController.swift */; };
+		219FD9002969652300D4283A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219FD8FE2969652300D4283A /* Main.storyboard */; };
+		219FD9032969652300D4283A /* Balloon_Animation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 219FD9012969652300D4283A /* Balloon_Animation.xcdatamodeld */; };
+		219FD9052969652500D4283A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219FD9042969652500D4283A /* Assets.xcassets */; };
+		219FD9082969652500D4283A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219FD9062969652500D4283A /* LaunchScreen.storyboard */; };
+		219FD9132969652500D4283A /* Balloon_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219FD9122969652500D4283A /* Balloon_AnimationTests.swift */; };
+		219FD91D2969652500D4283A /* Balloon_AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219FD91C2969652500D4283A /* Balloon_AnimationUITests.swift */; };
+		219FD91F2969652500D4283A /* Balloon_AnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219FD91E2969652500D4283A /* Balloon_AnimationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		219FD90F2969652500D4283A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 219FD8ED2969652300D4283A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 219FD8F42969652300D4283A;
+			remoteInfo = "Balloon Animation";
+		};
+		219FD9192969652500D4283A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 219FD8ED2969652300D4283A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 219FD8F42969652300D4283A;
+			remoteInfo = "Balloon Animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		219FD8F52969652300D4283A /* Balloon Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Balloon Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		219FD8F82969652300D4283A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		219FD8FA2969652300D4283A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		219FD8FC2969652300D4283A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		219FD8FF2969652300D4283A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		219FD9022969652300D4283A /* Balloon_Animation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Balloon_Animation.xcdatamodel; sourceTree = "<group>"; };
+		219FD9042969652500D4283A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		219FD9072969652500D4283A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		219FD9092969652500D4283A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219FD90E2969652500D4283A /* Balloon AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Balloon AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		219FD9122969652500D4283A /* Balloon_AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balloon_AnimationTests.swift; sourceTree = "<group>"; };
+		219FD9182969652500D4283A /* Balloon AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Balloon AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		219FD91C2969652500D4283A /* Balloon_AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balloon_AnimationUITests.swift; sourceTree = "<group>"; };
+		219FD91E2969652500D4283A /* Balloon_AnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balloon_AnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		219FD8F22969652300D4283A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219FD90B2969652500D4283A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219FD9152969652500D4283A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		219FD8EC2969652300D4283A = {
+			isa = PBXGroup;
+			children = (
+				219FD8F72969652300D4283A /* Balloon Animation */,
+				219FD9112969652500D4283A /* Balloon AnimationTests */,
+				219FD91B2969652500D4283A /* Balloon AnimationUITests */,
+				219FD8F62969652300D4283A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		219FD8F62969652300D4283A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				219FD8F52969652300D4283A /* Balloon Animation.app */,
+				219FD90E2969652500D4283A /* Balloon AnimationTests.xctest */,
+				219FD9182969652500D4283A /* Balloon AnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		219FD8F72969652300D4283A /* Balloon Animation */ = {
+			isa = PBXGroup;
+			children = (
+				219FD8F82969652300D4283A /* AppDelegate.swift */,
+				219FD8FA2969652300D4283A /* SceneDelegate.swift */,
+				219FD8FC2969652300D4283A /* ViewController.swift */,
+				219FD8FE2969652300D4283A /* Main.storyboard */,
+				219FD9042969652500D4283A /* Assets.xcassets */,
+				219FD9062969652500D4283A /* LaunchScreen.storyboard */,
+				219FD9092969652500D4283A /* Info.plist */,
+				219FD9012969652300D4283A /* Balloon_Animation.xcdatamodeld */,
+			);
+			path = "Balloon Animation";
+			sourceTree = "<group>";
+		};
+		219FD9112969652500D4283A /* Balloon AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				219FD9122969652500D4283A /* Balloon_AnimationTests.swift */,
+			);
+			path = "Balloon AnimationTests";
+			sourceTree = "<group>";
+		};
+		219FD91B2969652500D4283A /* Balloon AnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				219FD91C2969652500D4283A /* Balloon_AnimationUITests.swift */,
+				219FD91E2969652500D4283A /* Balloon_AnimationUITestsLaunchTests.swift */,
+			);
+			path = "Balloon AnimationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		219FD8F42969652300D4283A /* Balloon Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219FD9222969652500D4283A /* Build configuration list for PBXNativeTarget "Balloon Animation" */;
+			buildPhases = (
+				219FD8F12969652300D4283A /* Sources */,
+				219FD8F22969652300D4283A /* Frameworks */,
+				219FD8F32969652300D4283A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Balloon Animation";
+			productName = "Balloon Animation";
+			productReference = 219FD8F52969652300D4283A /* Balloon Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		219FD90D2969652500D4283A /* Balloon AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219FD9252969652500D4283A /* Build configuration list for PBXNativeTarget "Balloon AnimationTests" */;
+			buildPhases = (
+				219FD90A2969652500D4283A /* Sources */,
+				219FD90B2969652500D4283A /* Frameworks */,
+				219FD90C2969652500D4283A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				219FD9102969652500D4283A /* PBXTargetDependency */,
+			);
+			name = "Balloon AnimationTests";
+			productName = "Balloon AnimationTests";
+			productReference = 219FD90E2969652500D4283A /* Balloon AnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		219FD9172969652500D4283A /* Balloon AnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219FD9282969652500D4283A /* Build configuration list for PBXNativeTarget "Balloon AnimationUITests" */;
+			buildPhases = (
+				219FD9142969652500D4283A /* Sources */,
+				219FD9152969652500D4283A /* Frameworks */,
+				219FD9162969652500D4283A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				219FD91A2969652500D4283A /* PBXTargetDependency */,
+			);
+			name = "Balloon AnimationUITests";
+			productName = "Balloon AnimationUITests";
+			productReference = 219FD9182969652500D4283A /* Balloon AnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		219FD8ED2969652300D4283A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					219FD8F42969652300D4283A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					219FD90D2969652500D4283A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 219FD8F42969652300D4283A;
+					};
+					219FD9172969652500D4283A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 219FD8F42969652300D4283A;
+					};
+				};
+			};
+			buildConfigurationList = 219FD8F02969652300D4283A /* Build configuration list for PBXProject "Balloon Animation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 219FD8EC2969652300D4283A;
+			productRefGroup = 219FD8F62969652300D4283A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				219FD8F42969652300D4283A /* Balloon Animation */,
+				219FD90D2969652500D4283A /* Balloon AnimationTests */,
+				219FD9172969652500D4283A /* Balloon AnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		219FD8F32969652300D4283A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219FD9082969652500D4283A /* LaunchScreen.storyboard in Resources */,
+				219FD9052969652500D4283A /* Assets.xcassets in Resources */,
+				219FD9002969652300D4283A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219FD90C2969652500D4283A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219FD9162969652500D4283A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		219FD8F12969652300D4283A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219FD9032969652300D4283A /* Balloon_Animation.xcdatamodeld in Sources */,
+				219FD8FD2969652300D4283A /* ViewController.swift in Sources */,
+				219FD8F92969652300D4283A /* AppDelegate.swift in Sources */,
+				219FD8FB2969652300D4283A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219FD90A2969652500D4283A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219FD9132969652500D4283A /* Balloon_AnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219FD9142969652500D4283A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219FD91D2969652500D4283A /* Balloon_AnimationUITests.swift in Sources */,
+				219FD91F2969652500D4283A /* Balloon_AnimationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		219FD9102969652500D4283A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 219FD8F42969652300D4283A /* Balloon Animation */;
+			targetProxy = 219FD90F2969652500D4283A /* PBXContainerItemProxy */;
+		};
+		219FD91A2969652500D4283A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 219FD8F42969652300D4283A /* Balloon Animation */;
+			targetProxy = 219FD9192969652500D4283A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		219FD8FE2969652300D4283A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219FD8FF2969652300D4283A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		219FD9062969652500D4283A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219FD9072969652500D4283A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		219FD9202969652500D4283A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		219FD9212969652500D4283A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		219FD9232969652500D4283A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Balloon Animation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.murad.www.Balloon-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		219FD9242969652500D4283A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Balloon Animation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.murad.www.Balloon-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		219FD9262969652500D4283A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.murad.www.Balloon-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Balloon Animation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Balloon Animation";
+			};
+			name = Debug;
+		};
+		219FD9272969652500D4283A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.murad.www.Balloon-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Balloon Animation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Balloon Animation";
+			};
+			name = Release;
+		};
+		219FD9292969652500D4283A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.murad.www.Balloon-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Balloon Animation";
+			};
+			name = Debug;
+		};
+		219FD92A2969652500D4283A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.murad.www.Balloon-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Balloon Animation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		219FD8F02969652300D4283A /* Build configuration list for PBXProject "Balloon Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219FD9202969652500D4283A /* Debug */,
+				219FD9212969652500D4283A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219FD9222969652500D4283A /* Build configuration list for PBXNativeTarget "Balloon Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219FD9232969652500D4283A /* Debug */,
+				219FD9242969652500D4283A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219FD9252969652500D4283A /* Build configuration list for PBXNativeTarget "Balloon AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219FD9262969652500D4283A /* Debug */,
+				219FD9272969652500D4283A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219FD9282969652500D4283A /* Build configuration list for PBXNativeTarget "Balloon AnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219FD9292969652500D4283A /* Debug */,
+				219FD92A2969652500D4283A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		219FD9012969652300D4283A /* Balloon_Animation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				219FD9022969652300D4283A /* Balloon_Animation.xcdatamodel */,
+			);
+			currentVersion = 219FD9022969652300D4283A /* Balloon_Animation.xcdatamodel */;
+			path = Balloon_Animation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 219FD8ED2969652300D4283A /* Project object */;
+}
