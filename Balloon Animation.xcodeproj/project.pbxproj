@@ -101,12 +101,9 @@
 		219FD8F72969652300D4283A /* Balloon Animation */ = {
 			isa = PBXGroup;
 			children = (
-				219FD8F82969652300D4283A /* AppDelegate.swift */,
-				219FD8FA2969652300D4283A /* SceneDelegate.swift */,
-				219FD8FC2969652300D4283A /* ViewController.swift */,
-				219FD8FE2969652300D4283A /* Main.storyboard */,
+				219FD92C2969654D00D4283A /* System */,
+				219FD92B2969653500D4283A /* Controller */,
 				219FD9042969652500D4283A /* Assets.xcassets */,
-				219FD9062969652500D4283A /* LaunchScreen.storyboard */,
 				219FD9092969652500D4283A /* Info.plist */,
 				219FD9012969652300D4283A /* Balloon_Animation.xcdatamodeld */,
 			);
@@ -128,6 +125,25 @@
 				219FD91E2969652500D4283A /* Balloon_AnimationUITestsLaunchTests.swift */,
 			);
 			path = "Balloon AnimationUITests";
+			sourceTree = "<group>";
+		};
+		219FD92B2969653500D4283A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				219FD8FC2969652300D4283A /* ViewController.swift */,
+				219FD8FE2969652300D4283A /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		219FD92C2969654D00D4283A /* System */ = {
+			isa = PBXGroup;
+			children = (
+				219FD8F82969652300D4283A /* AppDelegate.swift */,
+				219FD8FA2969652300D4283A /* SceneDelegate.swift */,
+				219FD9062969652500D4283A /* LaunchScreen.storyboard */,
+			);
+			path = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
