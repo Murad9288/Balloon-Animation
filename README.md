@@ -11,7 +11,7 @@
 ## Example Photo ->:
 |Image-1|Image-2|Image-3|Gif Image|
 |---|---|---|---|
-|<img src= './Image sample/1.png' width='220px'>|<img src='./Image sample/2.png' width='220px'>|<img src='./Image sample/5.png' width='220px'>|<img src='./Image sample/4.gif' width='220px'>|
+|<img src= './Image sample/1.png' width='220px'>|<img src='./Image sample/2.png' width='220px'>|<img src='./Image sample/3.png' width='220px'>|<img src='./Image sample/4.gif' width='220px'>|
 <br/>
 
 </div>
