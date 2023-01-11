@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         createBalloon()
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTapBalloon)))
     }
-    
+    // grepper create balloon animation
     func createBalloon() {
         var i = 0
         balloons.forEach { (balloonName) in
@@ -37,6 +37,7 @@ class ViewController: UIViewController {
             balloonImageView.center.y = -50
         })
     }
+    // end grepper
 
     @objc func handleTapBalloon(gestureRegconzer: UITapGestureRecognizer) {
         let location = gestureRegconzer.location(in: self.view)
